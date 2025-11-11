@@ -1,0 +1,131 @@
+@font-face {
+            font-family: Montserrat;
+            src: url("fonts/Montserrat-Regular.ttf");
+        }
+
+@font-face {
+            font-family: Parisienne;
+            src: url("fonts/Parisienne-Regular.ttf");
+        }
+
+.navbar {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Montserrat; 
+        }
+
+.navbar-brand {
+            display: flex;
+            align-items: center;
+            font-family: Parisienne;
+        }
+
+.navbar-brand img {
+            margin-right: 10px;
+        }
+
+.nav-item a:hover:not(.active) {
+            background-color: #e8dfd9;
+            border-radius: 5px;
+            color: black;
+        }
+
+body {
+            background-size: cover;
+            background-position: center center; 
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+.custom-button {
+            font-family: Montserrat;
+            background-color: #e8dfd9;
+            border-color: #e8dfd9;
+            color: black;
+            margin: 0; 
+        }
+
+.custom-button:hover {
+            font-family: Montserrat;
+            background-color: #bba9a2;
+            border-color: #e8dfd9; 
+            color: white; 
+        }
+
+.product-entry {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            background-color: white; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px; 
+            overflow: hidden; 
+            transition: box-shadow 0.3s ease; 
+        }
+
+.product-entry:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+
+.desc {
+            min-height: 60px; 
+        }
+
+.desc h2 {
+            font-size: 1rem; 
+            margin: 0;
+            padding: 0.5rem 0;
+        }
+
+.product-entry img {
+            max-height: 200px;
+            object-fit: cover; 
+        }
+
+.carousel-image {
+            width: 600px; 
+            height: 500px; 
+            object-fit: contain; 
+        }
+
+.fixed-size-image {
+            width: 100%;
+            height: 300px; 
+            object-fit: cover;
+        }
+
+/**************************
+DASHBOARDS
+***************************/
+.dash-sidebar{
+  background: #9f782d;
+  color:#fff;
+}
+
+.dash-logo {
+  max-width: 150px;
+}
+
+.dash-sidebar .fa {
+  min-width: 35px;
+}
+
+.dash-perfume-img {
+  max-width:40px;
+}
+
+.dash-main .section {
+  padding:20px 0 40px;
+}
+
+.dash-sidebar li {
+  padding:5px 0;
+}
+
+.dash-sidebar li:not(:last-child) {
+  border-bottom:1px solid #fff;
+}
+
+    

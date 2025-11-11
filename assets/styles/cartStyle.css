@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Parisienne', cursive;
+    src: url('fonts/Parisienne-Regular.ttf') format('truetype');
+}
+
+.sidebar {
+    width: 300px; 
+    background: url('/parfum-de-luxe-re/images/site-background/bg.jpg') no-repeat center center; /* Keep the background image */
+    background-size: cover;
+    position: fixed;
+    right: -300px; 
+    top: 0;
+    height: 100%;
+    transition: right 0.4s ease;
+    overflow: hidden;
+    z-index: 1000; 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    color: #333; 
+}
+
+.sidebar.show {
+    right: 0; 
+}
+
+.sidebar a {
+    color: #333; 
+    padding: 15px 25px; 
+    text-decoration: none;
+    display: block;
+    font-size: 20px; 
+    line-height: 1.5; 
+    font-weight: 500; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+}
+
+.sidebar a:hover {
+    background-color: rgba(230, 230, 230, 0.5); 
+    color: #000; 
+    transform: scale(1.02); 
+}
+
+.sidebar a.selected {
+    background-color: rgba(0, 123, 255, 0.2); 
+    color: #000; 
+    font-weight: 600; 
+    border-left: 4px solid #007bff; 
+}
+
+.sidebar h4 {
+    color: #333; 
+    margin-bottom: 25px; 
+    font-size: 22px; 
+    font-weight: 600; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        right: -100%; 
+    }
+
+    .sidebar.show {
+        right: 0;
+    }
+}
