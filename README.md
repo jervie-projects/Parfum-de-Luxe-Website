@@ -26,3 +26,8 @@ All rights for these images belong to their respective owners.
 - MySQL
 - XAMPP
 - HTML, CSS, JavaScript
+
+# Disclaimer
+All images, media, and external resources used in this project are for educational, illustrative, or personal purposes only. They are not intended to infringe on any copyright or intellectual property rights.
+
+No ownership of third-party content is claimed, and any such content remains the property of its original creators.
