@@ -2,7 +2,7 @@
 <img width="1288" height="704" alt="image" src="https://github.com/user-attachments/assets/76cca72f-491e-4260-8ebf-792b83bff11c" />
 
 
-# Parfum de Luxe HTML project
+# Parfum de Luxe Website
 Parfum de Luxe is an online store website project developed strictly for school work only, it is designed to run locally on XAMPP.
 
 Some images used in this project were sourced online for educational purposes only.  
